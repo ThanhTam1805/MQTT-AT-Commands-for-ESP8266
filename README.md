@@ -31,6 +31,8 @@ II. Implementation steps
      ![image](https://github.com/user-attachments/assets/26971ec8-33f7-475b-b122-885e8eb72ed1)
 
   4. Connect Esp with USB TTL
+     File selection process according to file configuration
+     => Flash firmware
      
 
      
