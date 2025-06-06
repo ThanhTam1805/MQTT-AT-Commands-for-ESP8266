@@ -82,7 +82,7 @@ void ESP_AT_SETTING(void){
 	Send_AT_Commands_Setting("AT+CWMODE=1\r\n", "OK\r\n", 2000);
 	HAL_Delay(2000);
 	//=====================AT+CWJAP_CUR�Connects to an AP; Configuration Not Saved in the Flash
-	Send_AT_Commands_Setting("AT+CWJAP=\"Smart Home\",\"99999999\"\r\n", "OK\r\n", 10000);
+	Send_AT_Commands_Setting("AT+CWJAP=\".......\",\".......\"\r\n", "OK\r\n", 10000);
   HAL_Delay(2000);
 	//====================AT+CIPSERVER�Deletes/==============================
 	Send_AT_Commands_Setting("AT+CIPMUX=0\r\n", "OK\r\n", 2000);
